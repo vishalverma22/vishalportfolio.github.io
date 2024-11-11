@@ -47,7 +47,16 @@ html{
 	background-color: var(--btn-color);
 	text-transform: capitalize;
 }
-
+.main-bt{
+	margin-top: 16px;
+	font-size: 14px;
+	font-weight: 800;
+	padding: 15px 40px;
+	border-radius: 50px;
+	border: 1px solid green;
+	background-color: var(--btn-color);
+	text-transform: capitalize;
+}
 .sec-btn{
 	margin-top: 16px;
 	font-size: 20px;
