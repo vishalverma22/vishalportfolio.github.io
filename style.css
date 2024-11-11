@@ -1,0 +1,216 @@
+          /*Genral CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+	text-decoration: none;
+	
+}
+
+:root{
+	
+	/* background-color */
+	--bg-black:#000000;
+
+	/* text-color */
+	--primary-text:#228B22;
+	--secondary-text:;
+	--text-white:#FFFFFF;
+	--text-gray:#222222;
+	--btn-color:#389638;
+	
+    /* font-family */
+    --primary-font:"Poppins", sans-serif;;
+    --secondary-font:"Roboto", sans-serif;;
+
+}
+
+body,
+html{
+	font-family: var( --primary-font);
+	scroll-behavior: smooth;
+	background-color: var(--bg-black);
+}
+
+.main-btn{
+	margin-top: 16px;
+	font-size: 20px;
+	font-weight: 800;
+	padding: 15px 40px;
+	border-radius: 50px;
+	border: 1px solid green;
+	background-color: var(--btn-color);
+	text-transform: capitalize;
+}
+
+.sec-btn{
+	margin-top: 16px;
+	font-size: 20px;
+	font-weight: 800;
+	padding: 15px 40px;
+	border-radius: 50px;
+	border: 1px solid green;
+	color: var(--text-white);
+	background-color: var(--bg-black);
+	text-transform: capitalize;
+}
+
+ .navbar .navbar-brand{
+	font-size: 20px;
+	font-weight: 800;
+	letter-spacing: 0.1px;
+	color: var(--primary-text);
+	text-transform: uppercase; 
+}
+section{
+	padding: 80px 0px;
+	
+}
+.section-title{
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+	color: var(--primary-text);
+}
+.section-sub-title{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: var(--text-white);
+}
+
+/* navbar section */
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: var(--bg-black);
+}
+.navbar-nav .nav-item{
+	padding: 5px  5px;
+	margin: 0 12px;
+	color: var(--primary-text);
+}
+.navbar-nav .nav-link{
+	color: var(--text-white);
+}
+.head {
+	margin-top: 80px;
+	padding: 20px 0px;
+	color: var(--text-white);
+}
+.head h1{	
+	font-size: 46px;
+	font-weight: bold;	
+}
+.bt{
+	padding: 25px 0px;
+}
+.side-img img{
+	width: 420px;
+	height: 600px;
+	padding: 30px 0px 10px 100px;
+}
+
+/* about section */
+
+
+.about{
+	background-color: var(--text-gray);
+}
+.about .profile .img-logo img{
+	width: 100px;
+	height: 100px;
+	float: left;
+
+}
+.about .profile .info{
+	margin-left: 100px;
+	padding: 20px 0px 20px 20px;
+	color: var(--text-white);	
+}
+.about .skills h5{
+	font-size: 18px;
+	color: var(--text-white);
+}
+.about .skills .range{
+	width: 95%; 
+	height: 12px;
+	font-size: 10px;
+    background-color: var(--btn-color);
+	text-align: right;
+}
+.about-title{
+	font-size: 30px;
+	font-weight: 600;
+	color: var(--primary-text);
+}
+
+/* resume section */
+
+.our-work{
+	background-color: var(--text-gray);
+}
+.education{
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color: var(--btn-color);
+}
+.eduRng{
+	width: 100%; 
+	height: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+    background-color: var(--btn-color);
+
+}
+.box-info{
+	
+	padding: 40px 10px 40px 60px;
+}
+.box-info .rbox {
+	width: 90%; 
+	color: var(--btn-color);
+}
+
+/* our work section */
+
+.card-info .card{
+	width: 300px;
+	height: 360px;
+	font-weight: 800;
+	border-radius: 0px;
+	text-align: center;
+	color: var(--text-white);
+	background-color: gray;
+}
+
+/* contact-me section */
+
+.cnt-box{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.icon{
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	margin-top: 100px;
+	background-color: var(--text-gray);
+}
+.img-icon i{
+	font-size: 27px;
+	padding-top: 15px;
+	color: var(--btn-color);	
+}
+.cnt-info{
+	margin-top: 10px;
+	color: var(--text-white);
+}
