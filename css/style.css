@@ -343,7 +343,10 @@
           		font-size: 38px;
           		font-weight: bold;
           	}
-
+  .head h1 span{
+				font-size: 36px;
+				font-weight: bold;
+			}
           	.b-side-img-r p br {
           		display: none;
           	}
