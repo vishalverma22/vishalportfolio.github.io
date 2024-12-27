@@ -349,8 +349,16 @@
 
           /* Small devices (landscape phones, less than 768px) */
           @media (max-width: 767.98px) {
-
-          	.card-r {
+                  .card-r {
           		padding-left: 27px;
+          	}
+
+          	.head h1 {
+          		font-size: 38px;
+          		font-weight: bold;
+          	}
+
+          	.b-side-img-r p br {
+          		display: none;
           	}
           }
