@@ -180,26 +180,6 @@
 
           }
 
-#t {
-          	white-space: nowrap;
-          	width: 17ch;
-          	overflow: hidden;
-          	animation: type 3s steps(18) infinite alternate;
-          	border-right: 4px solid white;
-          	position: absolute;
-          }
-
-          @keyframes type {
-          	from {
-          		width: 0ch;
-          	}
-
-          	to {
-          		width: 17ch;
-          	}
-
-          }
-
           .bt {
           	padding: 25px 0px;
           }
