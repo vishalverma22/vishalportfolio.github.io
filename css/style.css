@@ -184,7 +184,7 @@
           	white-space: nowrap;
           	width: 18ch;
           	overflow: hidden;
-          	animation: type 3s steps(18) infinite alternate;
+          	animation: type 3s steps(17) infinite alternate;
           	border-right: 4px solid white;
           	position: absolute;
           }
